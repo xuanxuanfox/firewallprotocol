@@ -1,6 +1,6 @@
 package com.pkq.firewall.message.response;
 
-public class GetDefaultPolicyResponse extends Response{
+public class GetDefaultRuleResponse extends Response{
 	String policy;
 	String direction;
 
