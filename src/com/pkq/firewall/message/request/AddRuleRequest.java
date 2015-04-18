@@ -26,4 +26,10 @@ public class AddRuleRequest {
 	public void setRule(Rule rule) {
 		this.rule = rule;
 	}
+	public String getMsgType() {
+		return msgType;
+	}
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
 }

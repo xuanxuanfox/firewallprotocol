@@ -21,6 +21,12 @@ public class GetRulesRequest {
 	public void setRuleType(String ruleType) {
 		this.ruleType = ruleType;
 	}
+	public String getMsgType() {
+		return msgType;
+	}
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
 	public String getDirection() {
 		return direction;
 	}

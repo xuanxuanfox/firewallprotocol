@@ -11,6 +11,12 @@ public class GetDefaultRuleRequest {
 	public String getHost() {
 		return host;
 	}
+	public String getMsgType() {
+		return msgType;
+	}
+	public void setMsgType(String msgType) {
+		this.msgType = msgType;
+	}
 	public void setHost(String host) {
 		this.host = host;
 	}
