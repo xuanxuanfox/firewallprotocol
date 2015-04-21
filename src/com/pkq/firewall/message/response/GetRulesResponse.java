@@ -6,7 +6,7 @@ import com.pkq.firewall.model.Rule;
 
 public class GetRulesResponse extends Response{
 	String defaultPolicy;
-	
+	int total;
 	List<Rule> rules;
 
 	public List<Rule> getRules() {
@@ -23,5 +23,13 @@ public class GetRulesResponse extends Response{
 
 	public void setDefaultPolicy(String defaultPolicy) {
 		this.defaultPolicy = defaultPolicy;
+	}
+
+	public int getTotal() {
+		return total;
+	}
+
+	public void setTotal(int total) {
+		this.total = total;
 	}
 }
