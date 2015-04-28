@@ -13,7 +13,10 @@ public class Constant {
 	static final public String GetDefaultRuleToken = msgtype_token + "\"gd\"";
 	//---------
 	static final public String DelRule = "d";
-	static final public String DelRuleToken = "\"msgType:\""+"\"d\"";
+	static final public String DelRuleToken = msgtype_token +"\"d\"";
+	//---------
+	static final public String Update = "up";
+	static final public String UpdateToken = msgtype_token +"\"up\"";
 	//---------
 	static final public String Action_allow = "allow";
 	static final public String Action_deny = "deny";
@@ -24,5 +27,8 @@ public class Constant {
 	public final static int SUCESS_CODE=0; 
 	public final static String SUCESS_MESSAGE="sucess"; 
 	public final static int FALSE_CODE=-1; 
-
+	//---------
+	static final public String Optype_windows = "windows";
+	static final public String Optype_linux = "linux";
+	
 }
