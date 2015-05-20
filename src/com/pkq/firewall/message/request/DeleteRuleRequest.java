@@ -12,6 +12,8 @@ public class DeleteRuleRequest {
 	String host;
 	String direction;
 	String id;
+	String protocol;
+	String port;
 	
 	public String getMsgType() {
 		return msgType;
@@ -36,6 +38,18 @@ public class DeleteRuleRequest {
 	}
 	public void setId(String id) {
 		this.id = id;
+	}
+	public String getProtocol() {
+		return protocol;
+	}
+	public void setProtocol(String protocol) {
+		this.protocol = protocol;
+	}
+	public String getPort() {
+		return port;
+	}
+	public void setPort(String port) {
+		this.port = port;
 	}
 
 }

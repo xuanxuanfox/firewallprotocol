@@ -24,6 +24,8 @@ public class Constant {
 	static final public String Direction_in = "inbound";
 	static final public String Direction_out = "outbound";
 	//---------
+	static final public String ANY = "any";
+	//---------
 	public final static int SUCESS_CODE=0; 
 	public final static String SUCESS_MESSAGE="sucess"; 
 	public final static int FALSE_CODE=-1; 
